@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		F2AF067B1E4D3BEA00034EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF067A1E4D3BEA00034EE1 /* AppDelegate.swift */; };
 		F2AF067D1E4D3BEA00034EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF067C1E4D3BEA00034EE1 /* ViewController.swift */; };
-		F2AF06801E4D3BEA00034EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AF067E1E4D3BEA00034EE1 /* Main.storyboard */; };
 		F2AF06821E4D3BEA00034EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AF06811E4D3BEA00034EE1 /* Assets.xcassets */; };
 		F2AF06851E4D3BEA00034EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AF06831E4D3BEA00034EE1 /* LaunchScreen.storyboard */; };
 		F2AF06901E4D3BEA00034EE1 /* HangoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF068F1E4D3BEA00034EE1 /* HangoutTests.swift */; };
 		F2AF069B1E4D3BEA00034EE1 /* HangoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF069A1E4D3BEA00034EE1 /* HangoutUITests.swift */; };
+		F2AF06A91E4D3E8100034EE1 /* THAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF06A81E4D3E8100034EE1 /* THAPIHelper.swift */; };
+		F2AF06AB1E4D3EA700034EE1 /* THCoffeeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF06AA1E4D3EA700034EE1 /* THCoffeeShop.swift */; };
+		F2AF06AD1E4D3EB500034EE1 /* THCafeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF06AC1E4D3EB500034EE1 /* THCafeTableCell.swift */; };
+		F2AF06B01E4D3ECD00034EE1 /* THCafeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AF06AE1E4D3ECD00034EE1 /* THCafeTableCell.xib */; };
+		F2AF06B11E4D3ECD00034EE1 /* THCompanyWebsiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF06AF1E4D3ECD00034EE1 /* THCompanyWebsiteVC.swift */; };
+		F2AF06B51E4D3F3500034EE1 /* THLocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AF06B41E4D3F3400034EE1 /* THLocationHelper.swift */; };
+		F2AF06B71E4D3FE800034EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AF06B61E4D3FE800034EE1 /* Main.storyboard */; };
+		F2AF06B91E4D410C00034EE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AF06B81E4D410C00034EE1 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,16 +44,22 @@
 		F2AF06771E4D3BEA00034EE1 /* Hangout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AF067A1E4D3BEA00034EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AF067C1E4D3BEA00034EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2AF067F1E4D3BEA00034EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2AF06811E4D3BEA00034EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2AF06841E4D3BEA00034EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F2AF06861E4D3BEA00034EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2AF068B1E4D3BEA00034EE1 /* HangoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AF068F1E4D3BEA00034EE1 /* HangoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangoutTests.swift; sourceTree = "<group>"; };
 		F2AF06911E4D3BEA00034EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2AF06961E4D3BEA00034EE1 /* HangoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AF069A1E4D3BEA00034EE1 /* HangoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangoutUITests.swift; sourceTree = "<group>"; };
 		F2AF069C1E4D3BEA00034EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AF06A81E4D3E8100034EE1 /* THAPIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THAPIHelper.swift; sourceTree = "<group>"; };
+		F2AF06AA1E4D3EA700034EE1 /* THCoffeeShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THCoffeeShop.swift; sourceTree = "<group>"; };
+		F2AF06AC1E4D3EB500034EE1 /* THCafeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THCafeTableCell.swift; sourceTree = "<group>"; };
+		F2AF06AE1E4D3ECD00034EE1 /* THCafeTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THCafeTableCell.xib; sourceTree = "<group>"; };
+		F2AF06AF1E4D3ECD00034EE1 /* THCompanyWebsiteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THCompanyWebsiteVC.swift; sourceTree = "<group>"; };
+		F2AF06B41E4D3F3400034EE1 /* THLocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THLocationHelper.swift; sourceTree = "<group>"; };
+		F2AF06B61E4D3FE800034EE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F2AF06B81E4D410C00034EE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +112,16 @@
 			children = (
 				F2AF067A1E4D3BEA00034EE1 /* AppDelegate.swift */,
 				F2AF067C1E4D3BEA00034EE1 /* ViewController.swift */,
-				F2AF067E1E4D3BEA00034EE1 /* Main.storyboard */,
+				F2AF06B61E4D3FE800034EE1 /* Main.storyboard */,
+				F2AF06B41E4D3F3400034EE1 /* THLocationHelper.swift */,
+				F2AF06A81E4D3E8100034EE1 /* THAPIHelper.swift */,
+				F2AF06AA1E4D3EA700034EE1 /* THCoffeeShop.swift */,
+				F2AF06AC1E4D3EB500034EE1 /* THCafeTableCell.swift */,
+				F2AF06AE1E4D3ECD00034EE1 /* THCafeTableCell.xib */,
+				F2AF06AF1E4D3ECD00034EE1 /* THCompanyWebsiteVC.swift */,
+				F2AF06B81E4D410C00034EE1 /* Info.plist */,
 				F2AF06811E4D3BEA00034EE1 /* Assets.xcassets */,
 				F2AF06831E4D3BEA00034EE1 /* LaunchScreen.storyboard */,
-				F2AF06861E4D3BEA00034EE1 /* Info.plist */,
 			);
 			path = Hangout;
 			sourceTree = "<group>";
@@ -234,7 +253,9 @@
 			files = (
 				F2AF06851E4D3BEA00034EE1 /* LaunchScreen.storyboard in Resources */,
 				F2AF06821E4D3BEA00034EE1 /* Assets.xcassets in Resources */,
-				F2AF06801E4D3BEA00034EE1 /* Main.storyboard in Resources */,
+				F2AF06B01E4D3ECD00034EE1 /* THCafeTableCell.xib in Resources */,
+				F2AF06B91E4D410C00034EE1 /* Info.plist in Resources */,
+				F2AF06B71E4D3FE800034EE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +282,11 @@
 			files = (
 				F2AF067D1E4D3BEA00034EE1 /* ViewController.swift in Sources */,
 				F2AF067B1E4D3BEA00034EE1 /* AppDelegate.swift in Sources */,
+				F2AF06B51E4D3F3500034EE1 /* THLocationHelper.swift in Sources */,
+				F2AF06B11E4D3ECD00034EE1 /* THCompanyWebsiteVC.swift in Sources */,
+				F2AF06A91E4D3E8100034EE1 /* THAPIHelper.swift in Sources */,
+				F2AF06AB1E4D3EA700034EE1 /* THCoffeeShop.swift in Sources */,
+				F2AF06AD1E4D3EB500034EE1 /* THCafeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2AF067E1E4D3BEA00034EE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2AF067F1E4D3BEA00034EE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2AF06831E4D3BEA00034EE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
